@@ -2,8 +2,8 @@
 ! Example macro
 
 res 'c:\dev\HandbookOfOpticalSystems\Vol04\hos_vol4_design_files_v2\Misc\45-1_Relay-system-achromat.otx'
-FIE LSA
 gra bmp fil 'C:\dev\HandbookOfOpticalSystems\Vol04\Ch45\figs\fig45p1PreOptimize.bmp'
+FIE LSA
 gra t
 DEL VAR ALL 
 VAR s0 THI 
@@ -11,8 +11,13 @@ VAR s3 THI
 TAR MAG = -1.0
 TAR LAY f1 w2 = 0
 OPT
-FIE LSA
 gra bmp fil 'C:\dev\HandbookOfOpticalSystems\Vol04\Ch45\figs\fig45p1PostOptimize.bmp'
+FIE LSA
 gra t
+gra bmp fil 'C:\dev\HandbookOfOpticalSystems\Vol04\Ch45\figs\fig45p1LensDraw.bmp'
+vie
+gra t 
+! Show plots for user
+FIE LSA
 vie
 LIS
